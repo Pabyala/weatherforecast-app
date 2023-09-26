@@ -1,0 +1,26 @@
+.modal-content{
+    margin: 0 auto !important;
+    width: 70%;
+}
+.modal-header{
+    padding: .5rem .5rem .3rem .5rem !important;
+}
+.modal-title{
+    font-size: 1rem !important;
+}
+.modal-body {
+    padding: .7rem !important;
+    font-size: 1rem !important;
+}
+.modal-footer{
+    border-top: none !important;
+    padding-top: 0 !important;
+
+    border-top: none !important;
+    padding-top: 0 .5rem .3rem .5rem !important;
+}
+.button-close{
+    margin: 0 !important;
+    font-size: .9rem !important;
+    padding: 0.3rem 0.4rem !important;
+}

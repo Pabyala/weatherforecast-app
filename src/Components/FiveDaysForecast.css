@@ -1,0 +1,106 @@
+.fiveDaysForecast{
+    width: 100%;
+    overflow: hidden;
+}
+.fiveDaysForecast-title{
+    font-weight: 500;
+    color: #ffff;
+    font-size: 1rem;
+}
+.fiveDaysForecast-content{
+    width: 100%;
+}
+.fiveDaysForecast-wrap{
+    text-align: center;
+    padding: .3rem .5rem;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.03);
+    -webkit-tap-highlight-color: transparent;
+    color: #ffff;
+    width: 100%;
+}
+.fiveDaysForecast-date{
+    font-size: .9rem;
+    font-weight: 500;
+}
+.fiveDaysForecast-info{
+    display: flex;
+    width: 100%;
+}
+.fiveDaysForecast-weather{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fiveDaysForecastIcon{
+    font-size: 4rem;
+}
+.fiveDaysForecast-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+.fiveDaysForecast-detailsIcon{
+    font-size: .9rem;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .fiveDaysForecast-title {
+        font-size: 1.1rem;
+    }
+    .fiveDaysForecast-date {
+        font-size: 1rem;
+    }
+    .fiveDaysForecast-weather {
+        line-height: 5rem;
+    }
+    .fiveDaysForecastIcon {
+        font-size: 4.5rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .fiveDaysForecast-title {
+        font-size: 1.1rem;
+    }
+    .fiveDaysForecast-content-scroll {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .fiveDaysForecast-date {
+        font-size: 1rem;
+    }
+    .fiveDaysForecast-weather {
+        line-height: 5rem;
+    }
+    .fiveDaysForecastIcon {
+        font-size: 4.8rem;
+    }
+}
+@media (min-width: 1200px){
+    .fiveDaysForecast-content-scroll {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .fiveDaysForecast-title {
+        font-size: 1.1rem;
+    }
+    .fiveDaysForecast-date {
+        font-size: 1rem;
+    }
+    .fiveDaysForecast-weather {
+        line-height: 5rem;
+    }
+    .fiveDaysForecastIcon {
+        font-size: 4.8rem;
+    }
+    .fiveDaysForecast-detailsIcon {
+        font-size: 1rem;
+    }
+}
